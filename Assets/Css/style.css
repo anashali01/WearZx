@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --krona-font: 'Krona One';
+  --main-font: 'Letter Magic';
+  --primary-color: #0E1C4F;
+  --secondary-color: #FAECC3;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+/* Header Start */
+header nav {
+  background-color: var(--secondary-color);
+}
+
+header nav .navbar-brand {
+  font-size: 64px;
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+
+header nav .nav .nav-item a {
+  font-size: 18px;
+  font-family: var(--krona-font);
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+}
+
+header nav .nav .nav-item a i {
+  background-color: var(--primary-color);
+  padding: 8px 20px;
+  border-radius: 15px;
+}
+
+/* Hero section */
+.hero h2 {
+  font-size: 330px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+.hero .hero-content {
+  background-color: var(--secondary-color);
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  font-size: 16px;
+  font-family: var(--krona-font);
+  width: 500px;
+  line-height: 1.4;
+}
+
+.hero .count .collection h3 {
+  font-size: 64px;
+  font-family: var(--main-font);
+  color: var(--secondary-color);
+}
+
+.hero .count .collection span {
+  font-size: 24px;
+  font-family: var(--krona-font);
+  color: var(--secondary-color);
+}
+
+
+
+.banner h4,
+.collection-menu h4,
+.fashion-trend h4 {
+  writing-mode: sideways-lr;
+  font-size: 40px;
+  font-family: var(--main-font);
+}
+
+.stroke {
+  -webkit-text-stroke: 1px var(--secondary-color);
+  -webkit-text-fill-color: var(--primary-color);
+}
+
+.stroke-1 {
+  -webkit-text-stroke: 1px var(--primary-color);
+  -webkit-text-fill-color: var(--secondary-color);
+}
+
+.banner .heading {
+  background-color: var(--secondary-color);
+  padding: 30px 67px 30px 77px;
+  width: 965px;
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 90px;
+  letter-spacing: 11px;
+}
+
+.collection-menu .heading,
+.fashion-trend .heading {
+  padding: 30px 12px 30px 12px;
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 90px;
+  letter-spacing: 11px;
+}
+
+.banner .heading h3,
+.collection-menu .heading h3,
+.fashion-trend .heading h3,
+.detail .detail-text h2{
+  font-size: 84px;
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+
+.banner-image {
+  background-image: url('../Images/Mask\ group.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 65vh;
+}
+
+
+
+.collection-menu .nav .nav-item a {
+  border-color: #0E1C4F !important;
+}
+
+.collection-menu .cart {
+  background-image: url('../Images/cart-1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 520px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 46px;
+}
+
+.collection-menu .cart-1 {
+  background-image: url('../Images/cart-2.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 520px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 46px;
+}
+
+.collection-menu .cart-2 {
+  background-image: url('../Images/cart-3.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 520px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 46px;
+}
+
+.collection-menu .cart-3 {
+  background-image: url('../Images/cart-4.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 520px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 46px;
+}
+
+.collection-menu .cart-4 {
+  background-image: url('../Images/cart-5.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 520px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 46px;
+}
+
+.collection-menu .cart-5 {
+  background-image: url('../Images/cart-6.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 520px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 46px;
+}
+
+.collection-menu .cart-text h3 {
+  font-family: var(--main-font);
+  font-size: 34px;
+}
+
+.collection-menu .cart-text span {
+  font-size: 24px;
+  font-family: var(--krona-font);
+}
+
+.fashion-trend .trend .trend-text {
+  color: #FAECC3;
+  font-size: 25px;
+  font-family: var(--main-font);
+}
+.fashion-trend .trend .trend-text span {
+  font-size: 14px;
+  font-family: var(--krona-font);
+}
+
+.detail .detail-text p{
+  font-size: 16px;
+  font-family: var(--krona-font);
+  
+}
+.detail .detail-text a{
+  font-size: 16px;
+  font-family: var(--krona-font);
+  background-color: var(--primary-color);
+  color: #FAECC3;
+}
+
+footer h4 , footer h2{
+  font-size: 32px;
+  font-family: var(--main-font);
+  color: #FAECC3;
+}
+footer ul li a{
+  font-size: 16px;
+  font-family: var(--krona-font);
+  color: #FAECC3;
+  margin-bottom: 15px;
+}
+
+footer form a{
+  font-size: 16px;
+  font-family: var(--krona-font);
+  background-color: var(--secondary-color);
+  color: #0E1C4F;
+}
+
+::placeholder {
+  font-size: 14px;
+  font-family: var(--krona-font);
+  color: var(--secondary-color) !important;
+  opacity: 0.7;  /* Makes the placeholder slightly transparent */
+}
+
+footer form input:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+footer .container .nav li a {
+  background-color: transparent;
+  border: 2px solid white;
+  /* padding: 15px ; */
+  padding: 15px 14px;
+  border-radius: 50%;
+  
+}
+
+footer .container .nav li a i{
+  /* background-color: transparent; */
+  /* border: 2px solid white; */
+
+  font-size: 25px;
+}

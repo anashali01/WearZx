@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Krona One';
+    src: url('../Font/transfonter.org-20250405-051932/KronaOne-Regular.woff2') format('woff2'),
+        url('../Font/transfonter.org-20250405-051932/KronaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Letter Magic';
+    src: url('../Font/transfonter.org-20250405-051932/LetterMagicRegular.woff2') format('woff2'),
+        url('../Font/transfonter.org-20250405-051932/LetterMagicRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
